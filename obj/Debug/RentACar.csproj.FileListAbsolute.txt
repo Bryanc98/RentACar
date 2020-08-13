@@ -1,0 +1,2 @@
+C:\Users\braya\Desktop\Proyecto X\Rent A Car\RentACar\obj\Debug\RentACar.csprojAssemblyReference.cache
+C:\Users\braya\Desktop\Proyecto X\Rent A Car\RentACar\obj\Debug\RentACar.csproj.CoreCompileInputs.cache

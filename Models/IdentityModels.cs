@@ -29,5 +29,42 @@ namespace RentACar.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<TipoVehiculo> TipoVehiculos { get; set; }
+
+        public DbSet<Estado> Estados { get; set; }
+
+        public DbSet<Marca> Marcas { get; set; }
+
+        public DbSet<Modelo> Modelos { get; set; }
+
+        public DbSet<TipoCombustible> TipoCombustibles { get; set; }
+
+        public DbSet<Vehiculo> Vehiculos { get; set; }
+
+        public DbSet<Cliente> Clientes { get; set; }
+
+        public DbSet<Empleado> Empleados { get; set; }
+
+        public DbSet<Inspeccion> Inspeccions { get; set; }
+
+        public DbSet<RentaDevolucion> RentaDevolucions { get; set; }
+
+        public DbSet<Combustible> Combustibles { get; set; }
+
+        public DbSet<Gato> Gatos { get; set; }
+
+        public DbSet<GomaRepuesto> GomaRepuestos { get; set; }
+
+        public DbSet<Ralladura> Ralladuras { get; set; }
+
+        public DbSet<TipoDocumento> TipoDocumentos { get; set; }
+
+        public DbSet<RoturaCristal> RoturaCristals { get; set; }
+
+        public DbSet<TipoPersona> TipoPersonas { get; set; }
+
+
+
     }
 }
